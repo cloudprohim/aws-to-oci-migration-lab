@@ -26,7 +26,7 @@ The goal was not only to create an S3 bucket, but to build the project in a way 
 
 ---
 
-## Architecture Diagram
+## Architecture & Deployment Flow
 
 ```mermaid
 flowchart TD
@@ -45,3 +45,11 @@ flowchart TD
     F --> I[Terraform Outputs]
     I --> J[S3 Bucket Name]
     I --> K[S3 Bucket ARN]
+
+## 🧰 Tech Stack
+
+- AWS (S3)
+- Terraform
+- Git & GitHub
+- VS Code
+- PowerShell / CLI
