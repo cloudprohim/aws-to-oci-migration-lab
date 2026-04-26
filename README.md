@@ -10,6 +10,8 @@ During the build, OCI account access became a blocker, so the project was pivote
 
 The final version demonstrates a real Infrastructure-as-Code (IaC) workflow using Terraform to provision an AWS S3 bucket with a modular project structure, reusable variables, tagging, outputs, validation, deployment proof, and GitHub documentation.
 
+> ⚠️ OCI module is included for future extension but not deployed due to account limitations. Home Region availability for New Zealand is not present, and choosing different region does not allow bank card to be accepted to activate the account.
+
 ---
 
 ## 🎯 Why This Project Matters
